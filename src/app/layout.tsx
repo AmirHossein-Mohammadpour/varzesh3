@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ThemeProvider from "_provider/themeProvider";
+import ThemeToggle from "_ui/themeToggle";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -8,8 +10,13 @@ export const metadata: Metadata = {
 
 const RootLayout = ({children}: LayoutProps<'/'>) => {
   return (
-    <html lang="en" className={`h-full antialiased`}>
-      <body>{children}</body>
+    <html lang="en" className={`antialiased`} suppressHydrationWarning>
+      <body className={`bg-black light:bg-white text-white light:text-black transition-all duration-500`}>
+        <ThemeProvider>
+          {children}
+          <ThemeToggle/>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
