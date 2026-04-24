@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 const RootLayout = ({children}: LayoutProps<'/'>) => {
   return (
     <html lang="en" className={`antialiased`} suppressHydrationWarning>
-      <body>
+      <body className={`bg-black light:bg-white text-white light:text-black transition-all duration-500`}>
         <ThemeProvider>
-          <ThemeToggle/>
           {children}
+          <ThemeToggle/>
         </ThemeProvider>
       </body>
     </html>
