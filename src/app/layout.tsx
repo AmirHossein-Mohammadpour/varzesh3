@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ThemeProvider from "_provider/themeProvider";
 import ThemeToggle from "_ui/themeToggle";
+import { iranSans } from "_ui/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -10,8 +11,8 @@ export const metadata: Metadata = {
 
 const RootLayout = ({children}: LayoutProps<'/'>) => {
   return (
-    <html lang="en" className={`antialiased`} suppressHydrationWarning>
-      <body className={`bg-black light:bg-white text-white light:text-black transition-all duration-500`}>
+    <html lang="fa" dir="rtl" className={`${iranSans.variable} antialiased`} suppressHydrationWarning>
+      <body className={`bg-black light:bg-white text-white light:text-black transition-all duration-500 font-iranSans`}>
         <ThemeProvider>
           {children}
           <ThemeToggle/>
