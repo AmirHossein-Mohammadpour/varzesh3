@@ -20,7 +20,12 @@
     ],
     "baseUrl": "src/",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/_assets/*": ["_assets/*"],
+      "@/_context/*": ["_context/*"],
+      "@/_lib/*": ["_lib/*"],
+      "@/_provider/*": ["_provider/*"],
+      "@/_ui/*": ["_ui/*"],
     }
   },
   "include": [
