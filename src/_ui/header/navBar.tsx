@@ -31,7 +31,7 @@ const NavBar = ({ navs, logo }: NavBarProps) => {
     <nav ref={nav} className={`@container/navBar`}>
       <div>
         {navWidth < 768 && (
-          <div className="flex gap-2">
+          <div className={``}>
             <button
               onClick={() => {
                 setIsMenuOpen(true);
@@ -45,7 +45,7 @@ const NavBar = ({ navs, logo }: NavBarProps) => {
           </div>
         )}
         {(isMenuOpen || navWidth >= 768) && (
-          <div onClick={()=>{setIsMenuOpen(false)}} className={`fixed inset-0 @3xl/navBar:static bg-black/30`}>
+          <div onClick={()=>{setIsMenuOpen(false)}} className={``}>
             <ul
               onClick={(e)=>{e.stopPropagation()}}
               className={``}
