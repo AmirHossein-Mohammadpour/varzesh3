@@ -7,6 +7,8 @@ import NavBar from "@/_ui/header/navBar";
 import { navs, services } from "@/_lib/navBars";
 import logo from "@/_assets/images/varzesh3.svg";
 import Services from "@/_ui/header/services";
+import Footer1 from "@/_ui/footer/footer1";
+import Footer2 from "@/_ui/footer/footer2";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,6 +25,10 @@ const RootLayout = ({ children }: LayoutProps<"/">) => {
             <NavBar navs={navs} logo={logo} anotherNav={services}/>
           </header>
           {children}
+          <footer className={`py-10.5 flex flex-col gap-6 bg-[#18242f]`}>
+            <Footer1/>
+            <Footer2/>
+          </footer>
           <ThemeToggle />
         </ThemeProvider>
       </body>
