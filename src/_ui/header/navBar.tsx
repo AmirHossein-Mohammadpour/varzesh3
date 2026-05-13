@@ -56,7 +56,7 @@ const NavBar = ({ navs, logo, anotherNav }: NavBarProps) => {
                 <hr className={`mt-4 mb-2 text-neutral-800 light:text-neutral-300`} />
                 {navs.map((nav, index) => {
                   return (
-                    <li key={index} className={`flex flex-col ${(["جدول لیگ برتر", "جام جهانی"].includes(nav.name)) && "text-red-600"}`}>
+                    <li key={index} className={`flex flex-col ${(["جدول لیگ برتر", "جام جهانی"].includes(nav.name)) && "text-red-600"} hover:text-primary`}>
                       <Link href={nav.url}>{nav.name}</Link>
                     </li>
                   );
@@ -79,7 +79,7 @@ const NavBar = ({ navs, logo, anotherNav }: NavBarProps) => {
         <ul className={`hidden @4xl/navBar:flex gap-3 text-sm font-medium`}>
           {navs.map((nav, index) => {
             return(
-              <li key={index} className={`${(["جدول لیگ برتر", "جام جهانی"].includes(nav.name)) && "text-red-600"}`}>
+              <li key={index} className={`${(["جدول لیگ برتر", "جام جهانی"].includes(nav.name)) && "text-red-600"} hover:text-primary`}>
                 <Link href={nav.url}>{nav.name}</Link>
               </li>
             );
