@@ -1,4 +1,4 @@
-const nav1 = [
+const services = [
   { name: "پیش بینی", url: "#" },
   { name: "اپلیکیشن ورزش ۳", url: "#" },
   { name: "پخش زنده", url: "#" },
@@ -9,8 +9,8 @@ const nav1 = [
   { name: "سوژه‌های شما", url: "#" },
 ];
 
-const nav2 = [
-  { name: "صفحه اصلی", url: "#" },
+const navs = [
+  { name: "صفحه‌اصلی", url: "#" },
   { name: "جدول لیگ برتر", url: "#" },
   { name: "جام حذفی", url: "#" },
   { name: "ویدیو", url: "#" },
@@ -21,4 +21,4 @@ const nav2 = [
   { name: "نتایج زنده", url: "#" },
 ];
 
-export {nav1, nav2};
+export {services, navs};

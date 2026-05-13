@@ -3,6 +3,10 @@ import "./globals.css";
 import ThemeProvider from "_provider/themeProvider";
 import ThemeToggle from "_ui/themeToggle";
 import { iranSans } from "_ui/fonts";
+import NavBar from "@/_ui/header/navBar";
+import { navs, services } from "@/_lib/navBars";
+import logo from "@/_assets/images/varzesh3.svg";
+import Services from "@/_ui/header/services";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,8 +16,12 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: LayoutProps<"/">) => {
   return (
     <html lang="fa" dir="rtl" className={`${iranSans.variable} antialiased`} suppressHydrationWarning>
-      <body className={`bg-neutral-900 light:bg-white text-white light:text-black transition-all duration-500 ease-in-out font-iranSans`}>
+      <body className={`bg-[#373737] light:bg-[#d9d9d9] text-white light:text-black font-iranSans`}>
         <ThemeProvider>
+          <header className={``}>
+            <Services/>
+            <NavBar navs={navs} logo={logo} anotherNav={services}/>
+          </header>
           {children}
           <ThemeToggle />
         </ThemeProvider>

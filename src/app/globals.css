@@ -7,3 +7,16 @@
 @theme inline{
   --font-iranSans: var(--font-iranSans);
 }
+
+@theme{
+  --color-primary: #00838f;
+  --animate-SiderBarOpening: moveLeft 500ms;
+  @keyframes moveLeft {
+    0%{
+      right: -100%;
+    }
+    100%{
+      right: 0;
+    }
+  }
+}
