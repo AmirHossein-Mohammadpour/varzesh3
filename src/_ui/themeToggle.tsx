@@ -18,9 +18,8 @@ const ThemeToggle = () => {
     <div className={`@container/themeToggle fixed bottom-2 left-2`} dir="ltr">
       <div
         className={`
-          border p-1 bg-black light:bg-white border-[#555] rounded-full 
+          border p-1 bg-transparent backdrop:blur-sm border-[#555] rounded-full 
           text-neutral-400 light:text-neutral-700 inline-flex justify-center items-center
-          transition-all duration-500
         `}
       >
         <button
