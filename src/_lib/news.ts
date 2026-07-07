@@ -377,3 +377,5 @@ const news = [
     newsURL: function(){return `/news/${this.id}`}
   },
 ]
+
+export default news;
