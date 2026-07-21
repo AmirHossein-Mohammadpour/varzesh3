@@ -39,7 +39,7 @@ const NavBar = ({ navs, logo, anotherNav }: NavBarProps) => {
             onClick={() => {
               setIsMenuOpen(false);
             }}
-            className={`fixed inset-0 bg-white/25 light:bg-black/50`}
+            className={`fixed z-50 inset-0 bg-white/25 light:bg-black/50`}
           >
             <div
               onClick={(e) => {e.stopPropagation()}}

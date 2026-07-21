@@ -15,7 +15,7 @@ const ThemeToggle = () => {
     return;
   }
   return (
-    <div className={`@container/themeToggle fixed bottom-2 left-2`} dir="ltr">
+    <div className={`@container/themeToggle fixed bottom-2 left-2 z-200`} dir="ltr">
       <div
         className={`
           border p-1 bg-transparent backdrop-blur-xs border-[#555] rounded-full 
