@@ -28,11 +28,11 @@ const Slider = ({ news, sliderType }: { news: NewsType, sliderType: ('main' | 's
         onSwiper={swiper => swiperRef.current = swiper}
         onSlideChange={swiper => setSlideNum(swiper.realIndex)}
         loop
-        // autoplay={{
-        //   delay: 5000,
-        //   disableOnInteraction: false,
-        //   pauseOnMouseEnter: true,
-        // }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
         className={`bg-black light:bg-white rounded`}
       >
         {filteredNews?.map(nou => (
