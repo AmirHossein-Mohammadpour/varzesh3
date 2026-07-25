@@ -14,7 +14,6 @@ const news = [
     imageURL: "/images/01.webp",
     include1stBanner: true,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "02",
@@ -35,7 +34,6 @@ const news = [
     imageURL: "/images/02.webp",
     include1stBanner: true,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "03",
@@ -56,7 +54,6 @@ const news = [
     imageURL: "/images/03.webp",
     include1stBanner: true,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "04",
@@ -73,7 +70,6 @@ const news = [
     imageURL: "/images/04.webp",
     include1stBanner: true,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "05",
@@ -90,7 +86,6 @@ const news = [
     imageURL: "/images/05.webp",
     include1stBanner: true,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "06",
@@ -107,7 +102,6 @@ const news = [
     imageURL: "/images/06.webp",
     include1stBanner: false,
     include2ndBanner: true,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "07",
@@ -123,7 +117,6 @@ const news = [
     imageURL: "/images/07.webp",
     include1stBanner: false,
     include2ndBanner: true,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "08",
@@ -141,7 +134,6 @@ const news = [
     imageURL: "/images/08.webp",
     include1stBanner: false,
     include2ndBanner: true,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "09",
@@ -162,7 +154,6 @@ const news = [
     imageURL: "/images/09.webp",
     include1stBanner: false,
     include2ndBanner: true,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "10",
@@ -179,7 +170,6 @@ const news = [
     imageURL: "/images/10.webp",
     include1stBanner: false,
     include2ndBanner: true,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "11",
@@ -198,7 +188,6 @@ const news = [
     imageURL: "/images/11.webp",
     include1stBanner: false,
     include2ndBanner: true,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "12",
@@ -218,7 +207,6 @@ const news = [
     imageURL: "/images/12.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "13",
@@ -237,7 +225,6 @@ const news = [
     imageURL: "/images/13.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "14",
@@ -256,7 +243,6 @@ const news = [
     imageURL: "/images/14.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "15",
@@ -275,7 +261,6 @@ const news = [
     imageURL: "/images/15.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "16",
@@ -294,7 +279,6 @@ const news = [
     imageURL: "/images/16.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "17",
@@ -315,7 +299,6 @@ const news = [
     imageURL: "/images/17.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "18",
@@ -336,7 +319,6 @@ const news = [
     imageURL: "/images/18.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "19",
@@ -355,7 +337,6 @@ const news = [
     imageURL: "/images/19.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
   {
     id: "20",
@@ -374,7 +355,6 @@ const news = [
     imageURL: "/images/20.webp",
     include1stBanner: false,
     include2ndBanner: false,
-    newsURL: function(){return `/news/${this.id}`}
   },
 ]
 
