@@ -39,7 +39,7 @@ const Slider = ({ news, sliderType }: { news: NewsType, sliderType: ('main' | 's
           <SwiperSlide key={nou.id}>
             <div className={`flex flex-col @lg/slider:flex-row`}>
               <div className={`flex-1 relative aspect-7/5`}>
-                <Image src={nou.imageURL} alt={nou.title} fill loading="eager" className={`object-fill`} />
+                <Image src={nou.imageURL} alt={nou.title} fill sizes={`500px`} loading="eager" className={`object-fill`} />
                 <div className="absolute flex justify-between w-full top-1/2 -translate-y-1/2">
                   <button className={`${sliderType === 'main' ? 'bg-black light:bg-white' : 'bg-black/50'} p-1 rounded-l`} onClick={() => { swiperRef.current?.slideNext() }}>
                     <ChevronRight color={'#00838f'} />

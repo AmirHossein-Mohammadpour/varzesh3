@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { services } from "@/_lib/navBars";
 import { Calendar, Search, User } from 'lucide-react';
+import DateAndTime from "./dateAndTime";
+import { Suspense } from "react";
 
 const Services = () => {
   return (
@@ -18,7 +20,11 @@ const Services = () => {
         <div className={`flex gap-3`}>
           <span className={`flex items-center gap-1`}>
             <Calendar size={16} strokeWidth={3}/>
-            <div>چهارشنبه ۲۳ اردیبهشت - ۰۸:۴۵</div>
+            <div>
+              <Suspense>
+                <DateAndTime/>
+              </Suspense>
+            </div>
           </span>
           <span className={`flex items-center gap-1 border-x px-2 border-white/50`}>
             <Search size={16} strokeWidth={3}/>
