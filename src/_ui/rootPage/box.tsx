@@ -1,7 +1,7 @@
 const Box = ({title, className, children}: {title: string, className?: string, children: React.ReactNode}) => {
   return (
-    <div className={`py-2 rounded bg-black light:bg-white inset-shadow-[0_4px_0_0_#00acc1] flex flex-col items-center ${className}`}>
-      <h2 className={`text-[#00acc1] font-bold`}>{title}</h2>
+    <div className={`py-2 rounded bg-black light:bg-white inset-shadow-[0_4px_0_0_#00acc1] flex flex-col${className}`}>
+      <h2 className={`text-[#00acc1] font-bold self-center`}>{title}</h2>
       <div className={`text-xs`}>{children}</div>
     </div>
   )

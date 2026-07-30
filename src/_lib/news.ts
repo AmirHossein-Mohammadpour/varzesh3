@@ -1,4 +1,7 @@
-const news = [
+import { release } from "os";
+import { NewsType } from "./types";
+
+const news: NewsType = [
   {
     id: "01",
     title: "آمریکا ۱-۴ بلژیک: نامه اعمال ترامپ!",
@@ -14,6 +17,10 @@ const news = [
     imageURL: "/images/01.webp",
     include1stBanner: true,
     include2ndBanner: false,
+    scope: 'inside',
+    releaseTime: '',
+    views: 100,
+    comments: 20,
   },
   {
     id: "02",
@@ -34,6 +41,10 @@ const news = [
     imageURL: "/images/02.webp",
     include1stBanner: true,
     include2ndBanner: false,
+    scope: 'outside',
+    releaseTime: '',
+    views: 156,
+    comments: 92,
   },
   {
     id: "03",
@@ -54,6 +65,10 @@ const news = [
     imageURL: "/images/03.webp",
     include1stBanner: true,
     include2ndBanner: false,
+    scope: 'inside',
+    releaseTime: '',
+    views: 235,
+    comments: 63,
   },
   {
     id: "04",
@@ -70,6 +85,10 @@ const news = [
     imageURL: "/images/04.webp",
     include1stBanner: true,
     include2ndBanner: false,
+    scope: 'outside',
+    releaseTime: '',
+    views: 265,
+    comments: 46,
   },
   {
     id: "05",
@@ -86,6 +105,10 @@ const news = [
     imageURL: "/images/05.webp",
     include1stBanner: true,
     include2ndBanner: false,
+    scope: 'inside',
+    releaseTime: '',
+    views: 230,
+    comments: 69,
   },
   {
     id: "06",
@@ -102,6 +125,10 @@ const news = [
     imageURL: "/images/06.webp",
     include1stBanner: false,
     include2ndBanner: true,
+    scope: 'outside',
+    releaseTime: '',
+    views: 152,
+    comments: 22,
   },
   {
     id: "07",
@@ -117,6 +144,10 @@ const news = [
     imageURL: "/images/07.webp",
     include1stBanner: false,
     include2ndBanner: true,
+    scope: 'video',
+    releaseTime: '',
+    views: 200,
+    comments: 56,
   },
   {
     id: "08",
@@ -134,6 +165,10 @@ const news = [
     imageURL: "/images/08.webp",
     include1stBanner: false,
     include2ndBanner: true,
+    scope: 'outside',
+    releaseTime: '',
+    views: 175,
+    comments: 61,
   },
   {
     id: "09",
@@ -154,6 +189,10 @@ const news = [
     imageURL: "/images/09.webp",
     include1stBanner: false,
     include2ndBanner: true,
+    scope: 'inside',
+    releaseTime: '',
+    views: 132,
+    comments: 98,
   },
   {
     id: "10",
@@ -170,6 +209,10 @@ const news = [
     imageURL: "/images/10.webp",
     include1stBanner: false,
     include2ndBanner: true,
+    scope: 'video',
+    releaseTime: '',
+    views: 179,
+    comments: 15,
   },
   {
     id: "11",
@@ -188,6 +231,10 @@ const news = [
     imageURL: "/images/11.webp",
     include1stBanner: false,
     include2ndBanner: true,
+    scope: 'video',
+    releaseTime: '',
+    views: 165,
+    comments: 68,
   },
   {
     id: "12",
@@ -207,6 +254,10 @@ const news = [
     imageURL: "/images/12.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'inside',
+    releaseTime: '',
+    views: 193,
+    comments: 38,
   },
   {
     id: "13",
@@ -225,6 +276,10 @@ const news = [
     imageURL: "/images/13.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'outside',
+    releaseTime: '',
+    views: 165,
+    comments: 71,
   },
   {
     id: "14",
@@ -243,6 +298,10 @@ const news = [
     imageURL: "/images/14.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'outside',
+    releaseTime: '',
+    views: 125,
+    comments: 45,
   },
   {
     id: "15",
@@ -261,6 +320,10 @@ const news = [
     imageURL: "/images/15.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'inside',
+    releaseTime: '',
+    views: 149,
+    comments: 93,
   },
   {
     id: "16",
@@ -279,6 +342,10 @@ const news = [
     imageURL: "/images/16.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'video',
+    releaseTime: '',
+    views: 157,
+    comments: 68,
   },
   {
     id: "17",
@@ -299,6 +366,10 @@ const news = [
     imageURL: "/images/17.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'video',
+    releaseTime: '',
+    views: 148,
+    comments: 26,
   },
   {
     id: "18",
@@ -319,6 +390,10 @@ const news = [
     imageURL: "/images/18.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'outside',
+    releaseTime: '',
+    views: 156,
+    comments: 81,
   },
   {
     id: "19",
@@ -337,6 +412,10 @@ const news = [
     imageURL: "/images/19.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'inside',
+    releaseTime: '',
+    views: 168,
+    comments: 123,
   },
   {
     id: "20",
@@ -355,6 +434,10 @@ const news = [
     imageURL: "/images/20.webp",
     include1stBanner: false,
     include2ndBanner: false,
+    scope: 'video',
+    releaseTime: '',
+    views: 162,
+    comments: 78,
   },
 ]
 

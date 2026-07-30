@@ -7,4 +7,8 @@ export type NewsType = {
   imageURL: string;
   include1stBanner: boolean;
   include2ndBanner: boolean;
+  scope: ('inside' | 'outside' | 'video');
+  releaseTime: string;
+  views: number;
+  comments: number;
 }[];
