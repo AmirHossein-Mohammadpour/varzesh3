@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     dangerouslyAllowSVG: true, // Required to use SVGs with next/image
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    remotePatterns: [new URL('https://biz-cdn.varzesh3.com/banners/**')],
   },
 };
 

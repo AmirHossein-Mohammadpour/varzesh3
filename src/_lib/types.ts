@@ -12,3 +12,8 @@ export type NewsType = {
   views: number;
   comments: number;
 }[];
+
+export type NewPaperType = {
+  name: string;
+  imageURL: string;
+}[]
