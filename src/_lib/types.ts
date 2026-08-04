@@ -17,3 +17,18 @@ export type NewPaperType = {
   name: string;
   imageURL: string;
 }[]
+
+export type TeamStats = {
+  name: string; // Team name in Farsi
+  wins: number;
+  draws: number;
+  defeats: number;
+  goalsScored: number;
+  goalsConceded: number;
+}
+
+export type League = {
+  name: string; // League name in Farsi
+  country: string; // Country name in Farsi
+  teams: TeamStats[];
+}

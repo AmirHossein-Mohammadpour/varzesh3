@@ -5,6 +5,8 @@ import { Suspense } from "react";
 import NewsBar from "@/_ui/rootPage/newsBar";
 import { Advert1, Advert2, Advert3, Advert4, Advert5, Advert6, Advert7, Advert8, Advert9,} from "@/_ui/advertises";
 import NewsPaper from "@/_ui/rootPage/newsPaper";
+import LeagueTables from "@/_ui/leagueTables";
+import top5Leagues from "@/_lib/top5Leauges";
 
 const RootPage = () => {
   return (
@@ -15,18 +17,21 @@ const RootPage = () => {
             <Slider news={news} sliderType={`main`} />
           </Suspense>
         </div>
-        <Box title="آخرین اخبار فوتبال" className={`row-span-10`}>
-          <NewsBar news={news} />
-        </Box>
         <div className={`col-span-2`}>
           <Suspense>
             <Slider news={news} sliderType={`secondary`} />
           </Suspense>
         </div>
+        <Box title="آخرین اخبار فوتبال" className={`row-span-10`}>
+          <NewsBar news={news} />
+        </Box>
         <Box title={`گیشه روزنامه ورزشی`}>
           <Suspense>
             <NewsPaper/>
           </Suspense>
+        </Box>
+        <Box title={`لیگ های معتبر اروپایی`} className={`row-span-2`}>
+          <LeagueTables leagues={top5Leagues}/>
         </Box>
       </div>
     </main>
