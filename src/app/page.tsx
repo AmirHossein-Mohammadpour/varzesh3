@@ -30,7 +30,7 @@ const RootPage = () => {
             <NewsPaper/>
           </Suspense>
         </Box>
-        <Box title={`لیگ های معتبر اروپایی`} className={`row-span-2`}>
+        <Box title={`لیگ های معتبر اروپایی`} className={`row-span-3`}>
           <LeagueTables leagues={top5Leagues}/>
         </Box>
       </div>
