@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Advert1 = () => {
+const Advert1 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/6375"
@@ -17,9 +18,10 @@ const Advert1 = () => {
     </Link>
   );
 };
-const Advert2 = () => {
+const Advert2 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/9242"
@@ -34,9 +36,10 @@ const Advert2 = () => {
     </Link>
   );
 };
-const Advert3 = () => {
+const Advert3 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/14537"
@@ -51,9 +54,10 @@ const Advert3 = () => {
     </Link>
   );
 };
-const Advert4 = () => {
+const Advert4 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/8075"
@@ -68,9 +72,10 @@ const Advert4 = () => {
     </Link>
   );
 };
-const Advert5 = () => {
+const Advert5 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/14456"
@@ -85,9 +90,10 @@ const Advert5 = () => {
     </Link>
   );
 };
-const Advert6 = () => {
+const Advert6 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/9242"
@@ -102,9 +108,10 @@ const Advert6 = () => {
     </Link>
   );
 };
-const Advert7 = () => {
+const Advert7 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/9255"
@@ -119,9 +126,10 @@ const Advert7 = () => {
     </Link>
   );
 };
-const Advert8 = () => {
+const Advert8 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/13411"
@@ -136,9 +144,10 @@ const Advert8 = () => {
     </Link>
   );
 };
-const Advert9 = () => {
+const Advert9 = ({className}: {className?: string}) => {
   return (
     <Link
+      className={className}
       rel="nofollow"
       target="_blank"
       href="https://biz.varzesh3.com/events/click/14724"
