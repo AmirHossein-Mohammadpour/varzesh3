@@ -16,24 +16,26 @@ const RootPage = () => {
   return (
     <main className={`@container/rootPage`}>
       <div className={`p-2 flex flex-col @lg/rootPage:grid @lg/rootPage:grid-cols-2 @5xl/rootPage:grid-cols-3 @7xl/rootPage:grid-cols-4 gap-3`}>
-        <div className={`order-0 @lg/rootPage:order-0 @5xl/rootPage:order-0 @7xl/rootPage:order- @lg/rootPage:col-span-2`}><Suspense><Slider news={news} sliderType={`main`} /></Suspense></div>
-        <div className={`order-2 @lg/rootPage:order-1 @5xl/rootPage:order-2 @7xl/rootPage:order- @lg/rootPage:col-span-2`}><Suspense><Slider news={news} sliderType={`secondary`} /></Suspense></div>
-        <div className={`order-1 @lg/rootPage:order-3 @5xl/rootPage:order-1 @7xl/rootPage:order- @lg/rootPage:row-span-4`}><Box title="آخرین اخبار فوتبال"><NewsBar news={news} /></Box></div>
-        <div className={`order-3 @lg/rootPage:order-2 @5xl/rootPage:order-3 @7xl/rootPage:order-`}><Box title={`گیشه روزنامه ورزشی`}><Suspense><NewsPaper/></Suspense></Box></div>
-        <div className={`order-4 @lg/rootPage:order-4 @5xl/rootPage:order-4 @7xl/rootPage:order- @lg/rootPage:row-span-2 @5xl/rootPage:row-span-3`}><Box title={`جدول لیگ های معتبر اروپایی`}><LeagueTables leagues={top5Leagues}/></Box></div>
-        <div className={`order-5 @lg/rootPage:order-4 @5xl/rootPage:order-5 @7xl/rootPage:order- @5xl/rootPage:row-span-2`}><Box title={`جدول لیگ‌های ایران`}><LeagueTables leagues={iranLeagues}/></Box></div>
-        <div className={`order-6 @lg/rootPage:order-6 @5xl/rootPage:order-6 @7xl/rootPage:order-`}><Box title={`بازی‌های لیگ‌های معتبر اروپایی`}><LeagueFixtures leagues={top5LeaguesFixtures}/></Box></div>
-        <div className={`order-7 @lg/rootPage:order-7 @5xl/rootPage:order-7 @7xl/rootPage:order-`}><Box title={`بازی‌های لیگ‌های ایران`}><LeagueFixtures leagues={iranLeaguesFixtures}/></Box></div>
-        <div className={`order-1 @lg/rootPage:order-3 @5xl/rootPage:order-3 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert1/></div>
-        <div className={`order-2 @lg/rootPage:order-3 @5xl/rootPage:order-3 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert2/></div>
-        <div className={`order-3 @lg/rootPage:order-3 @5xl/rootPage:order-3 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert3/></div>
-        <div className={`order-4 @lg/rootPage:order-4 @5xl/rootPage:order-5 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert4/></div>
-        <div className={`order-5 @lg/rootPage:order-5 @5xl/rootPage:order-5 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert5/></div>
-        <div className={`order-6 @lg/rootPage:order-5 @5xl/rootPage:order-5 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert6/></div>
-        <div className={`order-7 @lg/rootPage:order-7 @5xl/rootPage:order-5 @7xl/rootPage:order- flex justify-center items-center borde`}><Advert7/></div>
-        <div className={`order-8 @lg/rootPage:order-8 @5xl/rootPage:order- @7xl/rootPage:order- flex justify-center items-center borde`}><Advert8/></div> 
-        <div className={`order-9 @lg/rootPage:order-9 @5xl/rootPage:order- @7xl/rootPage:order- flex justify-center items-center borde`}><Advert9/></div>
-        <div className={`order-9 @lg/rootPage:order-9 @5xl/rootPage:order- @7xl/rootPage:order- flex justify-center items-center borde`}><Advert1/></div>
+        <div className={`order-0 @lg/rootPage:order-0 @5xl/rootPage:order-0 @7xl/rootPage:order-0 @lg/rootPage:row-span-1 @5xl/rootPage:row-span-1 @7xl/rootPage:row-span-1  @lg/rootPage:col-span-2`}><Suspense><Slider news={news} sliderType={`main`} /></Suspense></div>
+        <div className={`order-2 @lg/rootPage:order-1 @5xl/rootPage:order-2 @7xl/rootPage:order-3 @lg/rootPage:row-span-1 @5xl/rootPage:row-span-1 @7xl/rootPage:row-span-1  @lg/rootPage:col-span-2`}><Suspense><Slider news={news} sliderType={`secondary`} /></Suspense></div>
+        <div className={`order-1 @lg/rootPage:order-2 @5xl/rootPage:order-1 @7xl/rootPage:order-2 @lg/rootPage:row-span-3 @5xl/rootPage:row-span-4 @7xl/rootPage:row-span-4 `}><Box title="آخرین اخبار فوتبال"><NewsBar news={news} /></Box></div>
+        <div className={`order-3 @lg/rootPage:order-3 @5xl/rootPage:order-3 @7xl/rootPage:order-3 @lg/rootPage:row-span-1 @5xl/rootPage:row-span-1 @7xl/rootPage:row-span-2 ` }><Box title={`گیشه روزنامه ورزشی`}><Suspense><NewsPaper/></Suspense></Box></div>
+        <div className={`order-4 @lg/rootPage:order-4 @5xl/rootPage:order-4 @7xl/rootPage:order-4 @lg/rootPage:row-span-3 @5xl/rootPage:row-span-3 @7xl/rootPage:row-span-3 `}><Box title={`جدول لیگ های معتبر اروپایی`}><LeagueTables leagues={top5Leagues}/></Box></div>
+        <div className={`order-5 @lg/rootPage:order-5 @5xl/rootPage:order-5 @7xl/rootPage:order-5 @lg/rootPage:row-span-3 @5xl/rootPage:row-span-3 @7xl/rootPage:row-span-3 `}><Box title={`جدول لیگ‌های ایران`}><LeagueTables leagues={iranLeagues}/></Box></div>
+        <div className={`order-6 @lg/rootPage:order-6 @5xl/rootPage:order-6 @7xl/rootPage:order-6 @lg/rootPage:row-span-2 @5xl/rootPage:row-span-2 @7xl/rootPage:row-span-2 `}><Box title={`بازی‌های لیگ‌های معتبر اروپایی`}><LeagueFixtures leagues={top5LeaguesFixtures}/></Box></div>
+        <div className={`order-7 @lg/rootPage:order-7 @5xl/rootPage:order-7 @7xl/rootPage:order-7 @lg/rootPage:row-span-2 @5xl/rootPage:row-span-2 @7xl/rootPage:row-span-2 `}><Box title={`بازی‌های لیگ‌های ایران`}><LeagueFixtures leagues={iranLeaguesFixtures}/></Box></div>
+        <div className={`order-1 @lg/rootPage:order-1 @5xl/rootPage:order-2 @7xl/rootPage:order-1  flex justify-center items-center`}><Advert1/></div>
+        <div className={`order-2 @lg/rootPage:order-2 @5xl/rootPage:order-2 @7xl/rootPage:order-3  flex justify-center items-center`}><Advert2/></div>
+        <div className={`order-3 @lg/rootPage:order-4 @5xl/rootPage:order-4 @7xl/rootPage:order-4  flex justify-center items-center`}><Advert3/></div>
+        <div className={`order-4 @lg/rootPage:order-4 @5xl/rootPage:order-4 @7xl/rootPage:order-4  flex justify-center items-center`}><Advert4/></div>
+        <div className={`order-5 @lg/rootPage:order-4 @5xl/rootPage:order-4 @7xl/rootPage:order-4  flex justify-center items-center`}><Advert5/></div>
+        <div className={`order-6 @lg/rootPage:order-4 @5xl/rootPage:order-4 @7xl/rootPage:order-4  flex justify-center items-center`}><Advert6/></div>
+        <div className={`order-7 @lg/rootPage:order-5 @5xl/rootPage:order-5 @7xl/rootPage:order-5  flex justify-center items-center`}><Advert7/></div>
+        <div className={`order-8 @lg/rootPage:order-5 @5xl/rootPage:order-5 @7xl/rootPage:order-5  flex justify-center items-center`}><Advert8/></div> 
+        <div className={`order-9 @lg/rootPage:order-6 @5xl/rootPage:order-6 @7xl/rootPage:order-7  flex justify-center items-center`}><Advert9/></div>
+        <div className={`order-9 @lg/rootPage:order-6 @5xl/rootPage:order-6 @7xl/rootPage:order-7  flex justify-center items-center`}><Advert1/></div>
+        <div className={`order-9 @lg/rootPage:order-6 @5xl/rootPage:order-6 @7xl/rootPage:order-7  flex justify-center items-center`}><Advert3/></div>
+        <div className={`order-9 @lg/rootPage:order-7 @5xl/rootPage:order-7 @7xl/rootPage:order-7  flex justify-center items-center`}><Advert5/></div>
       </div>
     </main>
   );
