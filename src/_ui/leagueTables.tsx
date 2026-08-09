@@ -21,11 +21,7 @@ const LeagueTables = ({ leagues }: { leagues: League[] }) => {
           </option>
         ))}
       </select>
-      {
-        <LeagueTable
-          league={leagues.find((item) => item.name === league) ?? leagues[0]}
-        />
-      }
+      <LeagueTable league={leagues.find((item) => item.name === league) ?? leagues[0]}/>
     </div>
   );
 };

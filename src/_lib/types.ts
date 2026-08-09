@@ -31,4 +31,31 @@ export type League = {
   name: string; // League name in Farsi
   country: string; // Country name in Farsi
   teams: TeamStats[];
-}
+};
+
+
+export type Fixture = {
+  id: string;
+  homeTeam: string;
+  awayTeam: string;
+};
+
+export type Week = {
+  week: number;
+  fixtures: Fixture[];
+};
+
+export type LeagueFixtures = {
+  name: string;
+  country: string;
+  season: string;
+  teamCount: number;
+  weekCount: number;
+  weeks: Week[];
+};
+
+export type FixturesData = {
+  season: string;
+  description: string;
+  leagues: LeagueFixtures[];
+};

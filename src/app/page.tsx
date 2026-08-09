@@ -8,6 +8,9 @@ import NewsPaper from "@/_ui/rootPage/newsPaper";
 import LeagueTables from "@/_ui/leagueTables";
 import top5Leagues from "@/_lib/top5Leauges";
 import iranLeagues from "@/_lib/iranLeagues";
+import LeagueFixtures from "@/_ui/rootPage/leagueFixtures";
+import top5LeaguesFixtures from '@/_lib/top5leaguesFixtures.json';
+import iranLeaguesFixtures from '@/_lib/iranLeaguesFixtures.json';
 
 const RootPage = () => {
   return (
@@ -17,17 +20,19 @@ const RootPage = () => {
         <div className={`col-span-2`}><Suspense><Slider news={news} sliderType={`secondary`} /></Suspense></div>
         <Box className={`row-span-10`} title="آخرین اخبار فوتبال"><NewsBar news={news} /></Box>
         <Box className={``} title={`گیشه روزنامه ورزشی`}><Suspense><NewsPaper/></Suspense></Box>
-        <Box className={`row-span-3`} title={`لیگ های معتبر اروپایی`}><LeagueTables leagues={top5Leagues}/></Box>
-        <Box title={`لیگ‌های ایران`}><LeagueTables leagues={iranLeagues}/></Box>
-        <Advert1/>
-        <Advert2/>
-        <Advert3/>
-        <Advert4/>
-        <Advert5/>
-        <Advert6/>
-        <Advert7/>
-        <Advert8/>
-        <Advert9/>
+        <Box className={`row-span-3`} title={`جدول لیگ های معتبر اروپایی`}><LeagueTables leagues={top5Leagues}/></Box>
+        <Box title={`جدول لیگ‌های ایران`}><LeagueTables leagues={iranLeagues}/></Box>
+        <Box title={`بازی‌های لیگ‌های معتبر اروپایی`}><LeagueFixtures leagues={top5LeaguesFixtures}/></Box>
+        <Box title={`بازی‌های لیگ‌های ایران`}><LeagueFixtures leagues={iranLeaguesFixtures}/></Box>
+        {/* <Advert1 className={``}/>
+        <Advert2 className={``}/>
+        <Advert3 className={``}/>
+        <Advert4 className={``}/>
+        <Advert5 className={``}/>
+        <Advert6 className={``}/>
+        <Advert7 className={``}/>
+        <Advert8 className={``}/> 
+        <Advert9 className={``}/> */}
       </div>
     </main>
   );

@@ -1,0 +1,666 @@
+{
+  "season": "نمونه ۱۴۰۵/۰۶",
+  "description": "داده نمونه برای سه سطح لیگ فوتبال ایران؛ اطلاعات مسابقات واقعی نیستند.",
+  "leagues": [
+    {
+      "id": "iran_premier_league",
+      "name": "لیگ برتر ایران",
+      "country": "ایران",
+      "season": "نمونه ۱۴۰۵/۰۶",
+      "teamCount": 16,
+      "weekCount": 30,
+      "weeks": [
+        {
+          "week": 1,
+          "fixtures": [
+            {
+              "id": "iran_premier_league-w1-1",
+              "homeTeam": "استقلال تهران",
+              "awayTeam": "ستارگان اصفهان"
+            },
+            {
+              "id": "iran_premier_league-w1-2",
+              "homeTeam": "پرسپولیس",
+              "awayTeam": "فجر سپاسی"
+            },
+            {
+              "id": "iran_premier_league-w1-3",
+              "homeTeam": "سپاهان",
+              "awayTeam": "پیکان تهران"
+            },
+            {
+              "id": "iran_premier_league-w1-4",
+              "homeTeam": "تراکتور",
+              "awayTeam": "نساجی مازندران"
+            },
+            {
+              "id": "iran_premier_league-w1-5",
+              "homeTeam": "فولاد خوزستان",
+              "awayTeam": "هوادار تهران"
+            },
+            {
+              "id": "iran_premier_league-w1-6",
+              "homeTeam": "گل‌گهر سیرجان",
+              "awayTeam": "مس رفسنجان"
+            },
+            {
+              "id": "iran_premier_league-w1-7",
+              "homeTeam": "ذوب‌آهن",
+              "awayTeam": "شمس‌آذر قزوین"
+            },
+            {
+              "id": "iran_premier_league-w1-8",
+              "homeTeam": "آلومینیوم اراک",
+              "awayTeam": "خیبر خرم‌آباد"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "fixtures": [
+            {
+              "id": "iran_premier_league-w2-1",
+              "homeTeam": "ستارگان اصفهان",
+              "awayTeam": "خیبر خرم‌آباد"
+            },
+            {
+              "id": "iran_premier_league-w2-2",
+              "homeTeam": "آلومینیوم اراک",
+              "awayTeam": "شمس‌آذر قزوین"
+            },
+            {
+              "id": "iran_premier_league-w2-3",
+              "homeTeam": "ذوب‌آهن",
+              "awayTeam": "مس رفسنجان"
+            },
+            {
+              "id": "iran_premier_league-w2-4",
+              "homeTeam": "گل‌گهر سیرجان",
+              "awayTeam": "هوادار تهران"
+            },
+            {
+              "id": "iran_premier_league-w2-5",
+              "homeTeam": "فولاد خوزستان",
+              "awayTeam": "نساجی مازندران"
+            },
+            {
+              "id": "iran_premier_league-w2-6",
+              "homeTeam": "تراکتور",
+              "awayTeam": "پیکان تهران"
+            },
+            {
+              "id": "iran_premier_league-w2-7",
+              "homeTeam": "سپاهان",
+              "awayTeam": "فجر سپاسی"
+            },
+            {
+              "id": "iran_premier_league-w2-8",
+              "homeTeam": "پرسپولیس",
+              "awayTeam": "استقلال تهران"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "fixtures": [
+            {
+              "id": "iran_premier_league-w3-1",
+              "homeTeam": "استقلال تهران",
+              "awayTeam": "خیبر خرم‌آباد"
+            },
+            {
+              "id": "iran_premier_league-w3-2",
+              "homeTeam": "ستارگان اصفهان",
+              "awayTeam": "شمس‌آذر قزوین"
+            },
+            {
+              "id": "iran_premier_league-w3-3",
+              "homeTeam": "پرسپولیس",
+              "awayTeam": "مس رفسنجان"
+            },
+            {
+              "id": "iran_premier_league-w3-4",
+              "homeTeam": "ذوب‌آهن",
+              "awayTeam": "هوادار تهران"
+            },
+            {
+              "id": "iran_premier_league-w3-5",
+              "homeTeam": "سپاهان",
+              "awayTeam": "نساجی مازندران"
+            },
+            {
+              "id": "iran_premier_league-w3-6",
+              "homeTeam": "فولاد خوزستان",
+              "awayTeam": "پیکان تهران"
+            },
+            {
+              "id": "iran_premier_league-w3-7",
+              "homeTeam": "تراکتور",
+              "awayTeam": "فجر سپاسی"
+            },
+            {
+              "id": "iran_premier_league-w3-8",
+              "homeTeam": "گل‌گهر سیرجان",
+              "awayTeam": "آلومینیوم اراک"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "fixtures": [
+            {
+              "id": "iran_premier_league-w4-1",
+              "homeTeam": "خیبر خرم‌آباد",
+              "awayTeam": "آلومینیوم اراک"
+            },
+            {
+              "id": "iran_premier_league-w4-2",
+              "homeTeam": "شمس‌آذر قزوین",
+              "awayTeam": "گل‌گهر سیرجان"
+            },
+            {
+              "id": "iran_premier_league-w4-3",
+              "homeTeam": "مس رفسنجان",
+              "awayTeam": "تراکتور"
+            },
+            {
+              "id": "iran_premier_league-w4-4",
+              "homeTeam": "هوادار تهران",
+              "awayTeam": "فولاد خوزستان"
+            },
+            {
+              "id": "iran_premier_league-w4-5",
+              "homeTeam": "نساجی مازندران",
+              "awayTeam": "سپاهان"
+            },
+            {
+              "id": "iran_premier_league-w4-6",
+              "homeTeam": "پیکان تهران",
+              "awayTeam": "پرسپولیس"
+            },
+            {
+              "id": "iran_premier_league-w4-7",
+              "homeTeam": "فجر سپاسی",
+              "awayTeam": "استقلال تهران"
+            },
+            {
+              "id": "iran_premier_league-w4-8",
+              "homeTeam": "ستارگان اصفهان",
+              "awayTeam": "ذوب‌آهن"
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "fixtures": [
+            {
+              "id": "iran_premier_league-w5-1",
+              "homeTeam": "استقلال تهران",
+              "awayTeam": "شمس‌آذر قزوین"
+            },
+            {
+              "id": "iran_premier_league-w5-2",
+              "homeTeam": "خیبر خرم‌آباد",
+              "awayTeam": "مس رفسنجان"
+            },
+            {
+              "id": "iran_premier_league-w5-3",
+              "homeTeam": "آلومینیوم اراک",
+              "awayTeam": "هوادار تهران"
+            },
+            {
+              "id": "iran_premier_league-w5-4",
+              "homeTeam": "گل‌گهر سیرجان",
+              "awayTeam": "تراکتور"
+            },
+            {
+              "id": "iran_premier_league-w5-5",
+              "homeTeam": "ذوب‌آهن",
+              "awayTeam": "فولاد خوزستان"
+            },
+            {
+              "id": "iran_premier_league-w5-6",
+              "homeTeam": "نساجی مازندران",
+              "awayTeam": "پرسپولیس"
+            },
+            {
+              "id": "iran_premier_league-w5-7",
+              "homeTeam": "پیکان تهران",
+              "awayTeam": "استقلال تهران"
+            },
+            {
+              "id": "iran_premier_league-w5-8",
+              "homeTeam": "فجر سپاسی",
+              "awayTeam": "ستارگان اصفهان"
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "fixtures": [
+            {
+              "id": "iran_premier_league-w6-1",
+              "homeTeam": "شمس‌آذر قزوین",
+              "awayTeam": "فجر سپاسی"
+            },
+            {
+              "id": "iran_premier_league-w6-2",
+              "homeTeam": "پیکان تهران",
+              "awayTeam": "نساجی مازندران"
+            },
+            {
+              "id": "iran_premier_league-w6-3",
+              "homeTeam": "پرسپولیس",
+              "awayTeam": "ذوب‌آهن"
+            },
+            {
+              "id": "iran_premier_league-w6-4",
+              "homeTeam": "فولاد خوزستان",
+              "awayTeam": "گل‌گهر سیرجان"
+            },
+            {
+              "id": "iran_premier_league-w6-5",
+              "homeTeam": "تراکتور",
+              "awayTeam": "آلومینیوم اراک"
+            },
+            {
+              "id": "iran_premier_league-w6-6",
+              "homeTeam": "هوادار تهران",
+              "awayTeam": "خیبر خرم‌آباد"
+            },
+            {
+              "id": "iran_premier_league-w6-7",
+              "homeTeam": "مس رفسنجان",
+              "awayTeam": "استقلال تهران"
+            },
+            {
+              "id": "iran_premier_league-w6-8",
+              "homeTeam": "ستارگان اصفهان",
+              "awayTeam": "شمس‌آذر قزوین"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iran_azadegan_league",
+      "name": "لیگ آزادگان",
+      "country": "ایران",
+      "season": "نمونه ۱۴۰۵/۰۶",
+      "teamCount": 16,
+      "weekCount": 30,
+      "weeks": [
+        {
+          "week": 1,
+          "fixtures": [
+            {
+              "id": "iran_azadegan_league-w1-1",
+              "homeTeam": "سایپا",
+              "awayTeam": "استقلال ملاثانی"
+            },
+            {
+              "id": "iran_azadegan_league-w1-2",
+              "homeTeam": "فجر نوین",
+              "awayTeam": "نیروی زمینی تهران"
+            },
+            {
+              "id": "iran_azadegan_league-w1-3",
+              "homeTeam": "مس کرمان",
+              "awayTeam": "پاس همدان"
+            },
+            {
+              "id": "iran_azadegan_league-w1-4",
+              "homeTeam": "پارسیان شیراز",
+              "awayTeam": "نفت و گاز گچساران"
+            },
+            {
+              "id": "iran_azadegan_league-w1-5",
+              "homeTeam": "نفت مسجدسلیمان",
+              "awayTeam": "بعثت کرمانشاه"
+            },
+            {
+              "id": "iran_azadegan_league-w1-6",
+              "homeTeam": "پارس جنوبی جم",
+              "awayTeam": "آریو اسلامشهر"
+            },
+            {
+              "id": "iran_azadegan_league-w1-7",
+              "homeTeam": "داماش گیلان",
+              "awayTeam": "شهرداری تبریز"
+            },
+            {
+              "id": "iran_azadegan_league-w1-8",
+              "homeTeam": "مس سونگون",
+              "awayTeam": "شاهین بوشهر"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "fixtures": [
+            {
+              "id": "iran_azadegan_league-w2-1",
+              "homeTeam": "استقلال ملاثانی",
+              "awayTeam": "شاهین بوشهر"
+            },
+            {
+              "id": "iran_azadegan_league-w2-2",
+              "homeTeam": "مس سونگون",
+              "awayTeam": "شهرداری تبریز"
+            },
+            {
+              "id": "iran_azadegan_league-w2-3",
+              "homeTeam": "داماش گیلان",
+              "awayTeam": "آریو اسلامشهر"
+            },
+            {
+              "id": "iran_azadegan_league-w2-4",
+              "homeTeam": "پارس جنوبی جم",
+              "awayTeam": "بعثت کرمانشاه"
+            },
+            {
+              "id": "iran_azadegan_league-w2-5",
+              "homeTeam": "نفت مسجدسلیمان",
+              "awayTeam": "نفت و گاز گچساران"
+            },
+            {
+              "id": "iran_azadegan_league-w2-6",
+              "homeTeam": "پارسیان شیراز",
+              "awayTeam": "پاس همدان"
+            },
+            {
+              "id": "iran_azadegan_league-w2-7",
+              "homeTeam": "مس کرمان",
+              "awayTeam": "نیروی زمینی تهران"
+            },
+            {
+              "id": "iran_azadegan_league-w2-8",
+              "homeTeam": "فجر نوین",
+              "awayTeam": "سایپا"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "fixtures": [
+            {
+              "id": "iran_azadegan_league-w3-1",
+              "homeTeam": "سایپا",
+              "awayTeam": "شاهین بوشهر"
+            },
+            {
+              "id": "iran_azadegan_league-w3-2",
+              "homeTeam": "استقلال ملاثانی",
+              "awayTeam": "شهرداری تبریز"
+            },
+            {
+              "id": "iran_azadegan_league-w3-3",
+              "homeTeam": "فجر نوین",
+              "awayTeam": "آریو اسلامشهر"
+            },
+            {
+              "id": "iran_azadegan_league-w3-4",
+              "homeTeam": "داماش گیلان",
+              "awayTeam": "بعثت کرمانشاه"
+            },
+            {
+              "id": "iran_azadegan_league-w3-5",
+              "homeTeam": "مس کرمان",
+              "awayTeam": "نفت و گاز گچساران"
+            },
+            {
+              "id": "iran_azadegan_league-w3-6",
+              "homeTeam": "نفت مسجدسلیمان",
+              "awayTeam": "پاس همدان"
+            },
+            {
+              "id": "iran_azadegan_league-w3-7",
+              "homeTeam": "پارسیان شیراز",
+              "awayTeam": "نیروی زمینی تهران"
+            },
+            {
+              "id": "iran_azadegan_league-w3-8",
+              "homeTeam": "پارس جنوبی جم",
+              "awayTeam": "مس سونگون"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "fixtures": [
+            {
+              "id": "iran_azadegan_league-w4-1",
+              "homeTeam": "شاهین بوشهر",
+              "awayTeam": "مس سونگون"
+            },
+            {
+              "id": "iran_azadegan_league-w4-2",
+              "homeTeam": "شهرداری تبریز",
+              "awayTeam": "پارس جنوبی جم"
+            },
+            {
+              "id": "iran_azadegan_league-w4-3",
+              "homeTeam": "آریو اسلامشهر",
+              "awayTeam": "پارسیان شیراز"
+            },
+            {
+              "id": "iran_azadegan_league-w4-4",
+              "homeTeam": "بعثت کرمانشاه",
+              "awayTeam": "نفت مسجدسلیمان"
+            },
+            {
+              "id": "iran_azadegan_league-w4-5",
+              "homeTeam": "پاس همدان",
+              "awayTeam": "مس کرمان"
+            },
+            {
+              "id": "iran_azadegan_league-w4-6",
+              "homeTeam": "نیروی زمینی تهران",
+              "awayTeam": "فجر نوین"
+            },
+            {
+              "id": "iran_azadegan_league-w4-7",
+              "homeTeam": "سایپا",
+              "awayTeam": "داماش گیلان"
+            },
+            {
+              "id": "iran_azadegan_league-w4-8",
+              "homeTeam": "استقلال ملاثانی",
+              "awayTeam": "نفت و گاز گچساران"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iran_second_division",
+      "name": "لیگ دسته دوم ایران",
+      "country": "ایران",
+      "season": "نمونه ۱۴۰۵/۰۶",
+      "teamCount": 16,
+      "weekCount": 30,
+      "weeks": [
+        {
+          "week": 1,
+          "fixtures": [
+            {
+              "id": "iran_second_division-w1-1",
+              "homeTeam": "شهرداری نوشهر",
+              "awayTeam": "ستارگان اصفهان"
+            },
+            {
+              "id": "iran_second_division-w1-2",
+              "homeTeam": "سپیدرود رشت",
+              "awayTeam": "طلوع بندر"
+            },
+            {
+              "id": "iran_second_division-w1-3",
+              "homeTeam": "پاسارگاد تهران",
+              "awayTeam": "پارس شمال"
+            },
+            {
+              "id": "iran_second_division-w1-4",
+              "homeTeam": "اتحاد خوزستان",
+              "awayTeam": "آفتاب کرمان"
+            },
+            {
+              "id": "iran_second_division-w1-5",
+              "homeTeam": "آبی‌پوشان قم",
+              "awayTeam": "کویر یزد"
+            },
+            {
+              "id": "iran_second_division-w1-6",
+              "homeTeam": "مقاومت البرز",
+              "awayTeam": "مس شهر بابک"
+            },
+            {
+              "id": "iran_second_division-w1-7",
+              "homeTeam": "شهر راز شیراز",
+              "awayTeam": "دریای کاسپین"
+            },
+            {
+              "id": "iran_second_division-w1-8",
+              "homeTeam": "پرسپولیس خراسان",
+              "awayTeam": "زاگرس یاسوج"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "fixtures": [
+            {
+              "id": "iran_second_division-w2-1",
+              "homeTeam": "ستارگان اصفهان",
+              "awayTeam": "زاگرس یاسوج"
+            },
+            {
+              "id": "iran_second_division-w2-2",
+              "homeTeam": "پرسپولیس خراسان",
+              "awayTeam": "دریای کاسپین"
+            },
+            {
+              "id": "iran_second_division-w2-3",
+              "homeTeam": "شهر راز شیراز",
+              "awayTeam": "مس شهر بابک"
+            },
+            {
+              "id": "iran_second_division-w2-4",
+              "homeTeam": "مقاومت البرز",
+              "awayTeam": "کویر یزد"
+            },
+            {
+              "id": "iran_second_division-w2-5",
+              "homeTeam": "آبی‌پوشان قم",
+              "awayTeam": "آفتاب کرمان"
+            },
+            {
+              "id": "iran_second_division-w2-6",
+              "homeTeam": "اتحاد خوزستان",
+              "awayTeam": "پارس شمال"
+            },
+            {
+              "id": "iran_second_division-w2-7",
+              "homeTeam": "پاسارگاد تهران",
+              "awayTeam": "طلوع بندر"
+            },
+            {
+              "id": "iran_second_division-w2-8",
+              "homeTeam": "سپیدرود رشت",
+              "awayTeam": "شهرداری نوشهر"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "fixtures": [
+            {
+              "id": "iran_second_division-w3-1",
+              "homeTeam": "شهرداری نوشهر",
+              "awayTeam": "زاگرس یاسوج"
+            },
+            {
+              "id": "iran_second_division-w3-2",
+              "homeTeam": "ستارگان اصفهان",
+              "awayTeam": "دریای کاسپین"
+            },
+            {
+              "id": "iran_second_division-w3-3",
+              "homeTeam": "سپیدرود رشت",
+              "awayTeam": "مس شهر بابک"
+            },
+            {
+              "id": "iran_second_division-w3-4",
+              "homeTeam": "شهر راز شیراز",
+              "awayTeam": "کویر یزد"
+            },
+            {
+              "id": "iran_second_division-w3-5",
+              "homeTeam": "پرسپولیس خراسان",
+              "awayTeam": "آفتاب کرمان"
+            },
+            {
+              "id": "iran_second_division-w3-6",
+              "homeTeam": "آبی‌پوشان قم",
+              "awayTeam": "پارس شمال"
+            },
+            {
+              "id": "iran_second_division-w3-7",
+              "homeTeam": "اتحاد خوزستان",
+              "awayTeam": "طلوع بندر"
+            },
+            {
+              "id": "iran_second_division-w3-8",
+              "homeTeam": "مقاومت البرز",
+              "awayTeam": "پاسارگاد تهران"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "fixtures": [
+            {
+              "id": "iran_second_division-w4-1",
+              "homeTeam": "زاگرس یاسوج",
+              "awayTeam": "پرسپولیس خراسان"
+            },
+            {
+              "id": "iran_second_division-w4-2",
+              "homeTeam": "دریای کاسپین",
+              "awayTeam": "شهر راز شیراز"
+            },
+            {
+              "id": "iran_second_division-w4-3",
+              "homeTeam": "مس شهر بابک",
+              "awayTeam": "مقاومت البرز"
+            },
+            {
+              "id": "iran_second_division-w4-4",
+              "homeTeam": "کویر یزد",
+              "awayTeam": "آبی‌پوشان قم"
+            },
+            {
+              "id": "iran_second_division-w4-5",
+              "homeTeam": "آفتاب کرمان",
+              "awayTeam": "اتحاد خوزستان"
+            },
+            {
+              "id": "iran_second_division-w4-6",
+              "homeTeam": "پارس شمال",
+              "awayTeam": "پاسارگاد تهران"
+            },
+            {
+              "id": "iran_second_division-w4-7",
+              "homeTeam": "طلوع بندر",
+              "awayTeam": "سپیدرود رشت"
+            },
+            {
+              "id": "iran_second_division-w4-8",
+              "homeTeam": "شهرداری نوشهر",
+              "awayTeam": "ستارگان اصفهان"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
