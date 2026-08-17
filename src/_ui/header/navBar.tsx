@@ -22,7 +22,7 @@ const NavBar = ({ navs, logo, anotherNav }: NavBarProps) => {
 
   return (
     <div className={`@container/navBar `}>
-      <nav className={`p-2 @4xl/navBar:py-3.5 flex items-center gap-2 bg-black light:bg-white shadow-sm shadow-white/50 light:shadow-black/50`}>
+      <nav className={`p-2 @4xl/navBar:py-3.5 flex items-center gap-2 bg-black light:bg-white shadow-sm shadow-white/50 light:shadow-black/50 relative z-1`}>
         <button
           onClick={() => {
             setIsMenuOpen((prev) => !prev);

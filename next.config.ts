@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   cacheComponents: true,
-  allowedDevOrigins: ['192.168.1.101'],
+  allowedDevOrigins: ['192.168.1.104'],
   images: {
     dangerouslyAllowSVG: true, // Required to use SVGs with next/image
     contentDispositionType: 'attachment',

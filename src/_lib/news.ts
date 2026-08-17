@@ -1,4 +1,3 @@
-import { release } from "os";
 import { NewsType } from "./types";
 
 const news: NewsType = [
@@ -440,5 +439,9 @@ const news: NewsType = [
     comments: 78,
   },
 ]
+
+export const getNewsById = (id: string) => {
+  return news.find((item) => item.id === id);
+};
 
 export default news;
