@@ -33,33 +33,33 @@ export function useResizeObserver<T extends HTMLElement>(
 }
 
 
-import { useEffect, useRef, useState } from 'react';
+// import { useEffect, useRef, useState } from 'react';
 
-function useResizeObserver(targetRef) {
-  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+// function useResizeObserver(targetRef) {
+//   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
-  useEffect(() => {
-    const element = targetRef.current;
-    if (!element) return;
+//   useEffect(() => {
+//     const element = targetRef.current;
+//     if (!element) return;
 
-    const observer = new ResizeObserver(entries => {
-      // Get the first observed element (there's only one in this case)
-      const entry = entries[0];
-      if (entry) {
-        // Using borderBoxSize for accurate dimensions (including padding/border)
-        const width = entry.borderBoxSize?.[0]?.inlineSize || entry.contentRect.width;
-        const height = entry.borderBoxSize?.[0]?.blockSize || entry.contentRect.height;
-        setDimensions({ width, height });
-      }
-    });
+//     const observer = new ResizeObserver(entries => {
+//       // Get the first observed element (there's only one in this case)
+//       const entry = entries[0];
+//       if (entry) {
+//         // Using borderBoxSize for accurate dimensions (including padding/border)
+//         const width = entry.borderBoxSize?.[0]?.inlineSize || entry.contentRect.width;
+//         const height = entry.borderBoxSize?.[0]?.blockSize || entry.contentRect.height;
+//         setDimensions({ width, height });
+//       }
+//     });
 
-    observer.observe(element);
+//     observer.observe(element);
 
-    // Cleanup
-    return () => {
-      observer.disconnect();
-    };
-  }, [targetRef]); // Re-run if the ref changes
+//     // Cleanup
+//     return () => {
+//       observer.disconnect();
+//     };
+//   }, [targetRef]); // Re-run if the ref changes
 
-  return dimensions;
-}
+//   return dimensions;
+// }
